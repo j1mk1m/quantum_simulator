@@ -1,6 +1,6 @@
 def subroutine(q1, q2):
 	toggle q1
-	hadamard q2
+	Hadamard q2
 
 def main():
 	new qubit q1, q2

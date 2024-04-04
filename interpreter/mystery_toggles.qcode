@@ -1,0 +1,16 @@
+def MysteryToggles(A, B, C, D, ans):
+    # if A then toggle ans
+    if B then toggle ans
+    if C then toggle ans
+    # if D then toggle ans
+
+def Detective():
+    new qubit A, B, C, D, ans
+    toggle ans
+    Hadamard all
+    call MysteryToggles(A, B, C, D, ans)
+    Hadamard all
+    extract all
+
+def main():
+    call Detective()

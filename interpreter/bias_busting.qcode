@@ -1,0 +1,11 @@
+CCode palindrome4:IsPalindrome, and4:and4
+
+def main():
+    new qubit B1, B2, B3, B4
+    Hadamard all
+    print
+    if IsPalindrome(B1, B2, B3, B4) then minus
+    Hadamard all
+    print
+    extract all
+

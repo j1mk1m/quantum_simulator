@@ -1,0 +1,15 @@
+CCode and4:and4
+
+def main():
+    new qubit A, B, C, D, E
+    print
+    if and4(A, B, C, D) then toggle E
+    print
+    toggle A
+    toggle B
+    toggle C
+    toggle D
+    print
+    if and4(A, B, C, D) then toggle E
+    print
+    extract all

@@ -1,4 +1,4 @@
-IsPalindrome(b1, b2, b3, b4):
+def IsPalindrome(b1, b2, b3, b4):
     w1 := b1 AND b4
     w2 := NOT b1
     w3 := NOT b4

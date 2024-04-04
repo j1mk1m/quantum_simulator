@@ -1,4 +1,4 @@
-and4(b1, b2, b3, b4):
+def and4(b1, b2, b3, b4):
     w1 := b1 AND b2
     w2 := b3 AND b4
     w3 := w1 AND w2

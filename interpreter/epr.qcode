@@ -1,0 +1,7 @@
+def main():
+    new qubit A, B
+    Hadamard A
+    if A then toggle B
+    print
+    extract A
+    extract B

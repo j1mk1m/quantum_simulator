@@ -1,0 +1,16 @@
+CCode and4:and4
+QCode identity:hadamard4
+
+def R(B1, B2, B3, B4):
+    if and4(B1, B2, B3, B4) then minus
+    if perp hadamard4(B1, B2, B3, B4) then minus 
+
+def main():
+    new qubit A, B, C, D
+    Hadamard all
+    print
+    call R(A, B, C, D)
+    call R(A, B, C, D)
+    call R(A, B, C, D)
+    print
+    extract all
