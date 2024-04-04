@@ -1,0 +1,5 @@
+or4(B1, B2, B3, B4):
+    w1 := B1 OR B2
+    w2 := B3 OR B4
+    w3 := w1 OR w2
+    return w3

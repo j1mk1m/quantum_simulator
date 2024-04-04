@@ -1,0 +1,13 @@
+def subroutine(q1, q2):
+	toggle q1
+	hadamard q2
+
+def main():
+	new qubit q1, q2
+	rotate q1 by 30 degrees
+	call subroutine(q1, q2)
+    if q1 then toggle q2
+    print # prints current state
+    extract q1 # extracts qubit and displays measurement
+
+call main()

@@ -1,0 +1,13 @@
+IsPalindrome(b1, b2, b3, b4):
+    w1 := b1 AND b4
+    w2 := NOT b1
+    w3 := NOT b4
+    w4 := w2 AND w3
+    w5 := w1 OR w4
+    w6 := b2 AND b3
+    w7 := NOT b2
+    w8 := NOT b3
+    w9 := w7 AND w8
+    w10 := w6 OR w9
+    w11 := w5 AND w10
+    return w11
