@@ -3,5 +3,4 @@ def main():
     Hadamard A
     if A then toggle B
     print
-    extract A
-    extract B
+    extract all
