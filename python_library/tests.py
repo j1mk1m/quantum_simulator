@@ -1,4 +1,4 @@
-from quantum_computer import QuantumComputer
+from python_module.quantum_computer import QuantumComputer
 
 def EPR_pair():
     q = QuantumComputer()

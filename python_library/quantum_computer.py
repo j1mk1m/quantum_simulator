@@ -1,21 +1,6 @@
 import numpy as np
 import random
-
-# Unique ID for Qubits
-counter = 0
-
-class Qubit:
-    def __init__(self, name):
-        global counter
-        self.name = name
-        self.id = counter
-        counter += 1
-
-    def __eq__(self, __value: object) -> bool:
-        return self.id == __value.id 
-
-    def __hash__(self) -> int:
-        return hash(self.id)
+from qubit import Qubit
 
 class QuantumComputer:
     def __init__(self) -> None:
